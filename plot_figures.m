@@ -1,6 +1,6 @@
 clc
 clear
-data=readtable('C:\Users\HJC\Pictures\tracing\export1.csv');
+data=readtable('export1.csv');
 data=table2array(data(:,["TRACK_ID","POSITION_T","AREA"]));
 
 num=max(data(:,1));
